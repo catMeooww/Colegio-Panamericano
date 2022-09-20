@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -24,18 +25,18 @@
             <ul class="nav navbar-nav">
                 <li><a class="options_pan" href="#Campus">Vida no campus</a></li>
 
-                <li><a class="options_pan">Conquistas</a></li>
+                <li><a class="options_pan" href="#conquistas">Conquistas</a></li>
 
                 <li><a class="options_pan">O que há de novo</a></li>
 
                 <li><a class="options_pan">Fale conosco</a></li>
 
-                <li><a class="options_pan">Jornal da Escola</a></li>
+                <li><a class="options_pan" href="https://catmeooww.github.io/O-Pan/">Jornal do Panamericano</a></li>
             </ul>
         </div>
     </nav>
     <h1 class="text-header">O Panamericano</h1>
-    <iframe
+    <iframe id="colegio"
         src="https://www.google.com/maps/embed?pb=!4v1662557242972!6m8!1m7!1s0Xr_YjTrE6r1Rne_sqUB5g!2m2!1d-24.23643450520823!2d-51.66672550456862!3f100.97551416788751!4f11.921230512321273!5f0.7820865974627469"
         width="98%" height="600" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -44,23 +45,84 @@
     <br>
     <section id="Campus">
         <center>
-            <h2 class="text-header">Vida no Campus</h1>
+            <h2 class="page-header">Vida no Campus</h2>
 
-                <div class="travel_mainDiv">
-                    <img height="99%" width="70%" src="panamericano.jpg">
-                    <h4 class="text-capitalize"><kbd>pátio do PAN</kbd></h4>
-                    <h5 class="text-success text-capitalize">é a parte central do colégio</h5>
-                    <p class="text-muted">É a parte principal do Panamericano, fica logo após a entrada.</p>
-                    <hr>
-                </div>
+            <div class="travel_mainDiv">
+                <img height="99%" width="70%" src="panamericano.jpg">
+                <h4 class="text-capitalize"><kbd>pátio do PAN</kbd></h4>
+                <h5 class="text-success text-capitalize">é a parte central do colégio</h5>
+                <p class="text-muted">É a parte principal do Panamericano, fica logo após a entrada.</p>
+                <hr>
+            </div>
         </center>
         <center>
             <div class="travel_mainDiv">
                 <img height="99%" width="70%" src="quadra_pan.jpg">
                 <h4 class="text-capitalize"><kbd>a quadra</kbd></h4>
                 <h5 class="text-success text-capitalize">aonde acontece as aulas de educação física</h5>
-                <p class="text-muted">É aqui que é feito os esportes ou ensaios da gincopan(gincana do colégio).</p>
+                <p class="text-muted">É aqui que é feito os esportes ou ensaios da gincopan(<a
+                        href="#conquista2">gincana do colégio</a>).</p>
                 <hr>
+            </div>
+        </center>
+    </section>
+    <section id="conquistas">
+        <center>
+            <h2 class="page-header">Conquistas do Panamericano</h2>
+
+            <div class="bg-primary cc" data-toggle="collapse" data-target="#conquista1">
+                Os jogos escolares<i class="fa fa-sort-desc"></i>
+            </div>
+            <div id="conquista1" class="collapse">
+                <div class="conquista-text">
+                    <img src="soccer.jpg" class="img-responsive img-thumbnail" height="99%" width="70%">
+                    <h5 class="text-success text-capitalize">jogamos nos jogos escolares de ivaiporã
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                    </h5>
+                    <p>O Panamericano jogou nos jogos escolares de ivaiporã, infelizmente não fomos em 1° lugar, mas
+                        ficamos no top 3</p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="bg-primary cc" data-toggle="collapse" data-target="#conquista2">
+                Gincopan<i class="fa fa-sort-desc"></i>
+            </div>
+            <div id="conquista2" class="collapse">
+                <div class="conquista-text">
+                    <img src="Uma equpe da Gincopan.png" class="img-responsive img-thumbnail" height="99%" width="70%">
+                    <h5 class="text-success text-capitalize">Nos temos uma gincana!
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                    </h5>
+                    <p>O Panamericano tem uma gincana que acontece anualmente, com o nome de Gincopan. A equipe
+                        vencedora foi a branca</p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="bg-primary cc" data-toggle="collapse" data-target="#conquista3">
+                Hino Nacional<i class="fa fa-sort-desc"></i>
+            </div>
+            <div id="conquista3" class="collapse">
+                <div class="conquista-text">
+                    <img src="Bandeira-Brasil.png" class="img-responsive img-thumbnail" width="50%" height="50%">
+                    <h5 class="text-success text-capitalize">Cantamos o hino nacional como respeito a pátria
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                    </h5>
+                    <p>No dia 7 de setembro, cantamos o hino do Brasil, pois isso é um sinal de respeito a pátria</p>
+                </div>
             </div>
         </center>
     </section>

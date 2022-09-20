@@ -16,3 +16,18 @@ height: 40px;
 section{
     background-color: aliceblue;
 }
+#colegio{
+    text-align: center;
+}
+.cc{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.cc i{
+    float: right;
+}
+.conquista-text span{
+    color:rgb(250, 185, 6)
+}
